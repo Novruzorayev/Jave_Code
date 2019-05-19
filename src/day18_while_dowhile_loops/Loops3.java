@@ -16,7 +16,7 @@ public class Loops3 {
 	while(num2 >= 1) {
 		System.out.print(num2+", ");
 		num2--;
-		Thread.sleep(456); // <=== this is pause the loop and it goes very slowly.
+		Thread.sleep(600); // <=== this is pause the loop and it goes very slowly.
 	}
 	    System.out.println("\nNum2: "+num2);
 	}

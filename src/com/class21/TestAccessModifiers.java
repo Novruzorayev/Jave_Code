@@ -1,5 +1,5 @@
 package com.class21;
-import syntaxDay01.AccessModifiers;
+import com.class20.AccessModifiers;
 public class TestAccessModifiers {
 	public static void main(String[] args) {
 		AccessModifiers obj = new AccessModifiers();

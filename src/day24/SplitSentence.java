@@ -8,7 +8,6 @@ public class SplitSentence {
 				         +"few implementation dependencies as possible.";
 		String[]words = sentence.split("");
 		for(String str: words) {
-			if()
 		}
 	
 	}

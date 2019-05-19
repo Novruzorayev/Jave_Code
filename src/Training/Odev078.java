@@ -67,7 +67,7 @@ public class Odev078 {
 				premium *= 20;
 			} else if (age == 18 && age >= 21) {
 				premium *= 6;
-			} else if (age == 21 && age >= 25) {
+			} else if (age == 21 && age >= 35) {
 				premium *= 2;
 			}
 			System.out.println("How many years you've been driving?");

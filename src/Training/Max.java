@@ -1,0 +1,25 @@
+package Training;
+
+public class Max {
+	public static void main(String[] args) {
+		int[][] arr = {
+				{1,2,3,4},
+				{5,6,7,8,12},
+				{9,10,11},
+		};
+		int max = arr[0][0];
+		int small = arr[0][0];
+		for(int i = 0; i < arr.length; i++) {
+			for(int j = 0; j < arr[i].length; j++) {
+				if(max < arr[i][j]) {
+					max = arr[i][j];
+				}else if(small > arr[i][j]) {
+					small = arr[i][j];
+				}
+			}
+		}
+		System.out.println(max);
+		System.out.println(small);
+	}
+
+}
